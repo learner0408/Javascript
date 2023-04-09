@@ -62,3 +62,23 @@ console.log(typeof var1) //Shows null is an object even if it signifies absence 
 
 // NaN
 console.log(typeof (5/"Ankur")) // Shows NaN is a number Data Type
+
+// Type Conversion (Explicit mentioning to convert type)
+console.log(data,typeof data)
+data = String(data)
+console.log(data,typeof data)
+
+let a = "12 Ankur"
+console.log(Number(a))
+console.log(parseInt(a))
+
+
+// Type Coercion (Here when using operations b/w two data types the language automatically assign the resultant Data type)
+let num3 = 3
+let num4 = "7"
+console.log(num3+num4, typeof (num3+num4))
+console.log(num4-num3, typeof (num4-num3))
+console.log(!num3)
+
+num4 = +num4 + 2
+console.log(num4)
