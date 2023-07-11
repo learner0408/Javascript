@@ -82,3 +82,9 @@ console.log(!num3)
 
 num4 = +num4 + 2
 console.log(num4)
+
+// Template Literal (Using variables inside the console.log statement)
+num1 = 5
+num2 = 7
+let result = num1+num2
+console.log(`Sum of ${num1} and ${num2} is ${result}`)
