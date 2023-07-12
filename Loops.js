@@ -20,3 +20,9 @@ for(let j=5; j>0; j--){
     console.log(pattern)
     pattern+='|o_o'
 }
+
+// for in Loop (Used while iterating objects)
+let phone = {company:'Apple', model:'iPhone14', os:'IOS'}
+for (let key in phone){
+    console.log(key, phone[key]);
+}
