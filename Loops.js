@@ -21,8 +21,14 @@ for(let j=5; j>0; j--){
     pattern+='|o_o'
 }
 
-// for in Loop (Used while iterating objects)
+// for-in Loop (Used while iterating objects)
 let phone = {company:'Apple', model:'iPhone14', os:'IOS'}
 for (let key in phone){
     console.log(key, phone[key]);
+}
+
+// for-of loop (Used while iterating arrays)
+let numbers = [3,2,8,6,5]
+for (let num of numbers){
+    console.log(num);
 }
